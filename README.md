@@ -1,6 +1,6 @@
 # React Mini Projects 🚀
 
-A collection of React mini projects to practice and showcase different React concepts and patterns.
+A collection of React mini projects to practice and showcase different React concepts and patterns used by me.
 
 ## Projects
 
@@ -15,7 +15,7 @@ Each project is self-contained in its own folder. Navigate to any project folder
 ```bash
 cd <project-name>
 npm install
-npm start
+npm start or npm run dev
 ```
 
 ## Tech Stack
