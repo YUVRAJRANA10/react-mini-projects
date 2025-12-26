@@ -13,6 +13,7 @@
 
 
 body {
+  background-image: url(assets/istockphoto-1489370084-612x612.jpg);
   margin: 0;
   display: flex;
   place-items: center;
@@ -20,18 +21,19 @@ body {
   min-height: 100vh;
 }
 .square {
-  background: #fff;
-  border: 1px solid #999;
+  background: #de3bc0c8;
+  
+  border: 1px solid #000000;
   float: left;
   font-size: 24px;
   font-weight: bold;
   line-height: 34px;
-  height: 34px;
+  height: 104px;
   margin-right: -1px;
   margin-top: -1px;
   padding: 0;
   text-align: center;
-  width: 34px;
+  width: 104px;
 }
 
 .board-row:after {
@@ -42,6 +44,9 @@ body {
 
 .status {
   margin-bottom: 10px;
+  background-color: #de3bc0c8;
+  font-size: larger;
+  
 }
 .game {
   display: flex;
