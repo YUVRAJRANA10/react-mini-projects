@@ -16,12 +16,22 @@ return(
 function App() {
 
   const [squares, setSquares] = useState(Array(9).fill(null));
-  
+  const [xisNext, setxisnext] = useState(true);
   
   function handleClick(i){
+    if (squares[i]) {
+    return;
+  }
     const nextSquares = squares.slice();
-    nextSquares[i] = "X";
+
+    if(xisNext){
+    nextSquares[i] = 'X';
+    }
+    else{
+      nextSquares[i] = 'O';
+    }
     setSquares(nextSquares);
+    setxisnext(!xisNext);
   }
 
 
