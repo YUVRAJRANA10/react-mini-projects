@@ -87,6 +87,15 @@ function calculateWinner(squares) {
 }
 
 
-
-
-export default App
+export default function Game() {
+  return (
+    <div className="game">
+      <div className="game-board">
+        <App />
+      </div>
+      <div className="game-info">
+        <ol>{}</ol>
+      </div>
+    </div>
+  );
+}
