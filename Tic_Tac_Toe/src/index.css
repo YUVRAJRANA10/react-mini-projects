@@ -14,6 +14,7 @@
 
 body {
   background-image: url(assets/istockphoto-1489370084-612x612.jpg);
+  
   margin: 0;
   display: flex;
   place-items: center;
@@ -23,7 +24,7 @@ body {
 .square {
   background: #de3bc0c8;
   
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   float: left;
   font-size: 24px;
   font-weight: bold;
@@ -44,7 +45,7 @@ body {
 
 .status {
   margin-bottom: 10px;
-  background-color: #de3bc0c8;
+  background-color: #de3bc0c6;
   font-size: larger;
   
 }

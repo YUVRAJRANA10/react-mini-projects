@@ -2,7 +2,9 @@
 
 A classic Tic Tac Toe game built with React, featuring **time travel** functionality to revisit any previous move in the game!
 
-![React](https://img.shields.io/badge/React-19-blue) ![Vite](https://img.shields.io/badge/Vite-6-purple)
+🔗 **[Live Demo](https://tic-tactoe-54pfs82j8-yuvrajrana10s-projects.vercel.app/)**
+
+![React](https://img.shields.io/badge/React-19-blue) ![Vite](https://img.shields.io/badge/Vite-6-purple) ![Vercel](https://img.shields.io/badge/Deployed-Vercel-black)
 
 ## ✨ Features
 
